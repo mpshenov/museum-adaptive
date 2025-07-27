@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.Font-family-roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.Font-family-forum {
+  font-family: "Forum", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+.Color-white {
+  color: #FFFFFF;
+}
+
+.Color-black {
+  color: #000000;
+}
+
+.Color-gold {
+  color: #9D8665;
+}
+
+.Font-size-40 {
+  font-size: 40px;
+}
+
+.Font-size-28 {
+  font-size: 28px;
+}
+
+.Font-size-22 {
+  font-size: 22px;
+}
+
+.Font-size-20 {
+  font-size: 20px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 768px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.header-container-main,
+.welcome-container-main,
+.visiting-container-main,
+.explore-container-main,
+.video-container-main,
+.gallery-container-main,
+.tickets-container-main,
+.contacts-container-main,
+.footer-container-main {
+  width: 728px;
+  margin: 0 auto; 
+  height: auto;
+}
+
+header,
+.Welcome,
+.Explore,
+.Gallery,
+.Visiting,
+.Video,
+.Tickets,
+.Contacts,
+footer {
+  width: 768px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: black;
+  color: white;
+  height: 110px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  width: 199px;
+  height: 41px;
+  top: 35px;
+  position: relative;
+}
+
+.logo-top {
+  width: 49px;
+  height: 26px;
+  margin-right: 20px;
+}
+
+#Louvre {
+  width: 199px;
+  font-size: 28px;
+  margin: 0;
+}
+
+.menu-top {
+  margin-left: auto;
+}
+
+.menu-top ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.Welcome {
+  background-color: black;
+}
+
+.welcome-container-main {
+  background-color: black;
+  color: white;
+  display: flex;
+  padding: 0px;
+}
+
+.welcome-container1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  z-index: 100;
+}
+
+.Welcome-text1 {
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.Welcome-text1 h1 {
+  margin: 0; 
+}
+
+.Welcome-text2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  margin: 0 0 20px 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.Welcome-text2 h2 {
+  margin: 0; ;
+}
+
+.welcome-container1 button {
+  background-color: #710707;
+  width: 300px;
+  height: 60px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-align: center;
+  color: white;
+  border: none;
+  margin: 0;
+}
+
+.Mona-Lisa-Portrait {
+  width: 728px;
+  height: 546px;
+  display: block;
+  margin: auto;
+  position: relative;
+}
+
+.Visiting {
+  background-color: white;
+}
+
+.visiting-container-main {
+  padding: 20px 0;
+}
+
+.Visiting h2,
+.Video h2,
+.Tickets h2,
+.Contacts h2 {
+  margin: 0;
+  padding: 30px 0 20px 0;
+  color: #9D8665;
+}
+
+.Explore h2,
+.Gallery h2 {
+  margin: 0;
+  padding: 50px 0 40px 0;
+  color: white;
+}
+
+.Rectangle-long {
+  background: #710707;
+  width: 728px;
+  height: 3px;
+  margin: 0 0 50px 0;
+}
+
+.Rectangle-short {
+  background: #710707;
+  width: 150px;
+  height: 2px;
+}
+
+.visiting-container1,
+.visiting-container2,
+.visiting-container3 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6 {
+  width: 280px;
+  height: 180px;
+}
+
+.block-1 h3 {
+  margin: 10px 0;
+}
+
+.block-1 p {
+  margin: 5px 0;
+}
+
+.Explore {
+  background-color: black;
+}
+
+.explore-container-main {
+  padding: 20px 0;
+}
+
+.explore-container {
+  gap: 20px;
+}
+
+.explore-box1 {
+  width: auto;
+}
+
+.explore-box1 p {
+  margin: 10px 0;
+}
+
+.explore-box2 img {
+  width: 728px;
+  height: 705px;
+  display: block;
+  margin: auto;
+}
+
+.Video {
+  background-color: white;
+}
+
+.video-container-main {
+  padding: 0px;
+}
+
+.VideoJourneyMain {
+  width: 728px;
+  height: 504px;
+}
+
+.video-container3 {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+
+.video-container2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Gallery {
+  background-color: black;
+}
+
+.gallery-container-main {
+  padding: 20px 0;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.gallery-container img {
+  width: 352px;
+  height: auto;
+  top: 0px;
+  position: relative;
+}
+
+.Tickets {
+  background-color: white;
+}
+
+.tickets-container-main {
+  padding: 20px 0;
+}
+
+.tickets-container {
+  display: flex;
+  gap: 20px;
+}
+
+.art10 {
+  width: 444px;
+  height: 340px;
+}
+
+.tickets-box3 {
+  width: 30%;
+}
+
+.tickets-box3 p {
+  margin: 10px 0;
+}
+
+.tickets-box3 button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.parallax {
+  width: auto;
+  height: auto;
+  margin-top: 20px;
+  transform: translateX(-50%);
+  left: 50%;
+  position: relative;
+}
+
+.Contacts {
+  background-color: white;
+}
+
+.contacts-container-main {
+  padding: 0px;
+}
+
+.contacts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contacts-box1 {
+  width: 30%;
+}
+
+.contact-info {
+  list-style-type: none;
+  padding: 0;
+}
+
+.map {
+  width: 664px;
+  height: 620px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+
+.footer-container-main {
+  padding: 20px 0;
+}
+
+.footer-general {
+  display: flex;
+  gap: 200px;
+}
+
+.logo-bottom-general {
+  display: flex;
+  align-items: center;
+}
+
+.logo-bottom {
+  width: 49px;
+  height: 26px;
+  margin-right: 20px;
+}
+
+#Louvre-bottom {
+  font-size: 28px;
+}
+
+.footer-container1 {
+  display: flex;
+  gap: 30px;
+}
+
+.footer-container2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.Rectangle-long-bottom {
+  width: 768px;
+  height: 2px;
+  background-color: white;
+  margin: 20px 0;
+}
